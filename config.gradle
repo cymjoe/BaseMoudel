@@ -1,0 +1,29 @@
+ext {
+    isRelease = false
+    androidId = [
+            compileSdkVersion: 28,
+            buildToolsVersion: "29.0.0",
+            minSdkVCersion   : 19,
+            targetSdkVersion : 28,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+    appId = [
+            "app": "com.cymjoe.base",
+            "order": "com.cymjoe.order",
+            "personal": "com.cymjoe.personal"
+    ]
+    url = [
+            "debug"  : "",
+            "release": ""
+
+    ]
+    supportLibrary = "1.1.0"
+    constraintlayoutLibrary = "1.1.3"
+    materialLibrary = "1.1.0"
+    dependencies=[
+            "appcompat":"androidx.appcompat:appcompat:${supportLibrary}",
+            "material":"com.google.android.material:material:${materialLibrary}",
+            "constraintlayout":"androidx.constraintlayout:constraintlayout:${constraintlayoutLibrary}"
+    ]
+}

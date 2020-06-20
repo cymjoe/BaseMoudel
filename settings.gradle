@@ -1,0 +1,5 @@
+rootProject.name='Base'
+include ':app'
+include ':order'
+include ':personal'
+include ':common'
