@@ -3,7 +3,7 @@ ext {
     androidId = [
             compileSdkVersion: 28,
             buildToolsVersion: "29.0.0",
-            minSdkVCersion   : 19,
+            minSdkVersion   : 19,
             targetSdkVersion : 28,
             versionCode      : 1,
             versionName      : "1.0"
